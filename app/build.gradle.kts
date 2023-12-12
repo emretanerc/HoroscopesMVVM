@@ -14,8 +14,8 @@ android {
         applicationId = "com.etcmobileapps.burcyorumlari2020"
         minSdk = 24
         targetSdk = 33
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 15
+        versionName = "2.3"
         buildConfigField("String", "BASE_URL", "\"${ConfigurationData.BASE_URL}\"")
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
