@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blackWhite">#FFFFFF</color>
+    <color name="whiteBlack">#000000</color>
+    <color name="purpleWhite">#FFFFFF</color>
+    <color name="whiteWhite">#FFFFFFFF</color>
+    <color name="selectedTabColor">#FFFFFF</color>
+    <color name="gradientStartColor">#070707</color>
+    <color name="gradientCenterColor">#222222</color>
+    <color name="gradientEndColor">#070707</color>
+</resources>
