@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "287373837574",
+    "firebase_url": "https://burc-yorumlari-50ecf.firebaseio.com",
+    "project_id": "burc-yorumlari-50ecf",
+    "storage_bucket": "burc-yorumlari-50ecf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287373837574:android:5ffe53b8de8a09e2d70a87",
+        "android_client_info": {
+          "package_name": "com.etcmobileapps.burcyorumlari2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287373837574-fl6jbrusm8sn9mo5kfmaau0q7r43fdvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByPUmPxRw-v4AjkT62yL6eLWXxWAr0hEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287373837574-fl6jbrusm8sn9mo5kfmaau0q7r43fdvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4275218970636966~6597711754"
+    }
+  ],
+  "configuration_version": "1"
+}
