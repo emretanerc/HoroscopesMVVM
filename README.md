@@ -17,6 +17,10 @@ There was not much emphasis on design. It is a study on technical details.
 - Light & Dark Mode
 - Responsive Design
 
+
+<a href="https://play.google.com/store/apps/details?id=com.etcmobileapps.burcyorumlari2020" target="_blank"><img align="center" src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white" alt="Play Store" /></a>
+</p>
+
 **Screenshoots**
 
 _Light Mode_
