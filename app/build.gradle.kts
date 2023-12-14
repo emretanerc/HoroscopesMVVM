@@ -14,8 +14,8 @@ android {
         applicationId = "com.etcmobileapps.burcyorumlari2020"
         minSdk = 24
         targetSdk = 33
-        versionCode = 15
-        versionName = "2.3"
+        versionCode = 17
+        versionName = "2.5"
         buildConfigField("String", "BASE_URL", "\"${ConfigurationData.BASE_URL}\"")
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -69,5 +69,6 @@ dependencies {
     implementation ("com.squareup.retrofit2:adapter-rxjava3:2.9.0")
     implementation("com.google.dagger:hilt-android:2.48")
     kapt("com.google.dagger:hilt-android-compiler:2.48")
+    implementation("com.onesignal:OneSignal:[5.0.0, 5.99.99]")
 
 }
