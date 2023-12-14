@@ -5,13 +5,15 @@ This application was created based on daily, weekly, monthly and annual interpre
 There was not much emphasis on design. It is a study on technical details.
 
 
-- MVVM
+- MVVM 
 - LiveData
 - Hilt
 - Retrofit & RxJava3
+- UseCases
 - Jetpack Navigation
 - Picasso Library
-- buildSrc
+- One Signal
+- Build SRC
 - Light & Dark Mode
 - Responsive Design
 
