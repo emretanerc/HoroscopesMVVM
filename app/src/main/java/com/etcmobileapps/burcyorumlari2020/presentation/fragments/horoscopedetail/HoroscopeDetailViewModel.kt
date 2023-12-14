@@ -34,7 +34,7 @@ class HoroscopeDetailViewModel @Inject constructor(
 
 
      fun fetchDailyComments(horoscopeId: String) {
-        disposable.add(horoscopesUseCase.getDailyHoroscope(horoscopeId)
+        disposable.add(horoscopesUseCase.getDailyComments(horoscopeId)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe(
@@ -51,7 +51,7 @@ class HoroscopeDetailViewModel @Inject constructor(
 
 
     fun fetchWeeklyComments(horoscopeId: String) {
-        disposable.add(horoscopesUseCase.getWeeklyHoroscope(horoscopeId)
+        disposable.add(horoscopesUseCase.getWeeklyComments(horoscopeId)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe(
@@ -66,7 +66,7 @@ class HoroscopeDetailViewModel @Inject constructor(
     }
 
     fun fetchMontlyComments(horoscopeId: String) {
-        disposable.add(horoscopesUseCase.getMontlyHoroscope(horoscopeId)
+        disposable.add(horoscopesUseCase.getMonthlyComments(horoscopeId)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe(
@@ -81,7 +81,7 @@ class HoroscopeDetailViewModel @Inject constructor(
     }
 
     fun fetchYearlyComments(horoscopeId: String) {
-        disposable.add(horoscopesUseCase.getYearlyHoroscope(horoscopeId)
+        disposable.add(horoscopesUseCase.getYearlyComments(horoscopeId)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe(

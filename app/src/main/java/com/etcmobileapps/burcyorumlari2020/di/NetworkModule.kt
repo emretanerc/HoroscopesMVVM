@@ -3,7 +3,7 @@ package com.etcmobileapps.burcyorumlari2020.di
 
 import com.etcmobileapps.burcyorumlari2020.BuildConfig
 import com.etcmobileapps.burcyorumlari2020.data.ApiService
-import com.etcmobileapps.burcyorumlari2020.data.repository.DailyRepositoryImpl
+import com.etcmobileapps.burcyorumlari2020.data.repository.DailyRepositoryImp
 import com.etcmobileapps.burcyorumlari2020.data.repository.MontlyRepositoryImp
 import com.etcmobileapps.burcyorumlari2020.data.repository.WeeklyRepositoryImp
 import com.etcmobileapps.burcyorumlari2020.data.repository.YearlyRepositoryImp
@@ -80,7 +80,7 @@ object NetworkModule {
     fun provideDailyRepository(
         retrofitService: ApiService
     ): DailyRepository {
-        return DailyRepositoryImpl(retrofitService)
+        return DailyRepositoryImp(retrofitService)
     }
 
     @Singleton

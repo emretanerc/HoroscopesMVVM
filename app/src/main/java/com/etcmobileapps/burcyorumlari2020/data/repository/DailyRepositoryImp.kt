@@ -9,7 +9,7 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
-class DailyRepositoryImpl @Inject constructor(private val service: ApiService):DailyRepository {
+class DailyRepositoryImp @Inject constructor(private val service: ApiService):DailyRepository {
     override fun getDailyCommentsById(horoscopeId: String): Single<HoroscopesResponseModel> {
         return service.getDaily(horoscopeId)
     }
