@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Günlük Burç Yorumları ve Tarot</string>
+    <string name="data_problem">İnternet veya sunucu kaynaklı problem yaşanmaktadır.Lütfen sonra tekrar deneyin.</string>
+    <string name="horoscope"><b>Burç : </b></string>
+    <string name="planet"><b>Gezegen : </b></string>
+    <string name="element"><b>Element : </b></string>
+    <string name="motto"><b>Motto : </b></string>
 </resources>

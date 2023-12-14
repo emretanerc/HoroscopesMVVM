@@ -3,6 +3,14 @@ package com.etcmobileapps.burcyorumlari2020.di
 
 import com.etcmobileapps.burcyorumlari2020.BuildConfig
 import com.etcmobileapps.burcyorumlari2020.data.ApiService
+import com.etcmobileapps.burcyorumlari2020.data.repository.DailyRepositoryImpl
+import com.etcmobileapps.burcyorumlari2020.data.repository.MontlyRepositoryImp
+import com.etcmobileapps.burcyorumlari2020.data.repository.WeeklyRepositoryImp
+import com.etcmobileapps.burcyorumlari2020.data.repository.YearlyRepositoryImp
+import com.etcmobileapps.burcyorumlari2020.domain.repository.DailyRepository
+import com.etcmobileapps.burcyorumlari2020.domain.repository.MonthlyRepository
+import com.etcmobileapps.burcyorumlari2020.domain.repository.WeeklyRepository
+import com.etcmobileapps.burcyorumlari2020.domain.repository.YearlyRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -67,4 +75,35 @@ object NetworkModule {
         return retrofit.create(ApiService::class.java)
     }
 
+    @Singleton
+    @Provides
+    fun provideDailyRepository(
+        retrofitService: ApiService
+    ): DailyRepository {
+        return DailyRepositoryImpl(retrofitService)
+    }
+
+    @Singleton
+    @Provides
+    fun provideWeeklyRepository(
+        retrofitService: ApiService
+    ): WeeklyRepository {
+        return WeeklyRepositoryImp(retrofitService)
+    }
+
+    @Singleton
+    @Provides
+    fun provideMonthlyRepository(
+        retrofitService: ApiService
+    ): MonthlyRepository {
+        return MontlyRepositoryImp(retrofitService)
+    }
+
+    @Singleton
+    @Provides
+    fun provideYearlyRepository(
+        retrofitService: ApiService
+    ): YearlyRepository {
+        return YearlyRepositoryImp(retrofitService)
+    }
 }

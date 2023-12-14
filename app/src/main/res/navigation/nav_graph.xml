@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/horoscopesFragment"
-        android:name="com.etcmobileapps.burcyorumlari2020.ui.horoscopes.HoroscopesFragment"
+        android:name="com.etcmobileapps.burcyorumlari2020.presentation.fragments.horoscopes.HoroscopesFragment"
         android:label="HoroscopesFragment" >
         <action
             android:id="@+id/action_horoscopesFragment_to_horoscopeDetailFragment"
@@ -14,7 +14,7 @@
     </fragment>
     <fragment
         android:id="@+id/horoscopeDetailFragment"
-        android:name="com.etcmobileapps.burcyorumlari2020.ui.horoscopedetail.HoroscopeDetailFragment"
+        android:name="com.etcmobileapps.burcyorumlari2020.presentation.fragments.horoscopedetail.HoroscopeDetailFragment"
         android:label="HoroscopeDetailFragment" >
         <argument
             android:name="id"
